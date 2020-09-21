@@ -25,7 +25,7 @@
   <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
     <script src="js/lottie.js"></script>
     <div class="container">
       <header class="header">
@@ -83,36 +83,35 @@
               <h1>ваша стоматологія</h1>
               <p class="main-forms__color">мистецтво створення посмішок</p>
             </a>
-            <!-- menu burger ========== -->
-            <nav class="menu">
+          </div>
+          <!-- menu burger ========== -->
+          <nav class="menu">
+            <div class="wrapper">
               <div class="menu-icon-wrapper" id="menu-list">
                 <div class="menu-icon"></div>
               </div>
               <ul class="menu-list">
                 <li class="menu-list__item">
-                  <a href="#about" class="menu-list__link">Про сайт</a>
+                  <a href="#" class="menu-list__link">домашня</a>
                 </li>
                 <li class="menu-list__item">
-                  <a href="#" class="menu-list__link">Головна</a>
+                  <a href="#about" class="menu-list__link">про нас</a>
                 </li>
                 <li class="menu-list__item">
-                  <a href="#views" class="menu-list__link">Краєвиди</a>
+                  <a href="#services" class="menu-list__link">наші послуги</a>
                 </li>
                 <li class="menu-list__item">
-                  <a href="#weather" class="menu-list__link">Погода</a>
+                  <a href="#team" class="menu-list__link">наша команда</a>
                 </li>
                 <li class="menu-list__item">
-                  <a href="#plans" class="menu-list__link">Плани</a>
+                  <a href="#testimonials" class="menu-list__link">відгуки</a>
                 </li>
                 <li class="menu-list__item">
-                  <a href="#arch" class="menu-list__link">Архитектура</a>
-                </li>
-                <li class="menu-list__item">
-                  <a href="#photo" class="menu-list__link">Фото</a>
+                  <a href="#contacts" class="menu-list__link">контакти</a>
                 </li>
               </ul>
-            </nav>
-          </div>
+            </div>
+          </nav>
           <!-- main-forms  ----------------------------------- -->
           <div class="wrapper main-contacts__position">
             <div class="main-forms">
@@ -145,14 +144,15 @@
             <nav class="main-manu">
               <ul>
                 <li><a href="#">Домашня</a></li>
-                <li><a href="#">Про нас</a></li>
-                <li><a href="#">Наші послуги</a></li>
-                <li><a href="#">Наша команда</a></li>
-                <li><a href="#">Відгуки</a></li>
-                <li><a href="#">Контакти</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#services">Наші послуги</a></li>
+                <li><a href="#team">Наша команда</a></li>
+                <li><a href="#testimonials">Відгуки</a></li>
+                <li><a href="#contacts">Контакти</a></li>
               </ul>
             </nav>
           </div>
+          <!-- animation ---------------------- -->
           <div class="main-banner">
             <img src="images/banner.jpg" alt="banner" />
           </div>
@@ -161,13 +161,13 @@
               class="main-invitation__svgContainer"
               id="main-invitation__svgContainer"
             ></div>
-            <script src="js/lottie.js"></script>
+            <!-- <script src="js/lottie.js"></script> -->
             <script src="js/main.js"></script>
           </div>
         </section>
         <section class="welcome">
           <div class="wrapper">
-            <div class="welcome-head">
+            <div class="welcome-head" id="about">
               <h2>
                 Вітаємо в офісі
                 <span style="font-family: cera">Ваша Стоматологія!</span>
@@ -223,7 +223,7 @@
         </section>
         <section class="choose">
           <div class="wrapper choose-layer">
-            <h2>
+            <h2 id="team">
               Чому Ви вибераєте
               <span style="font-family: 'cera'; font-size: 1.2em"
                 >Ваша Стоматологія</span
@@ -275,7 +275,7 @@
         </section>
         <section class="services">
           <div class="wrapper">
-            <h2>Наші сервіси</h2>
+            <h2 id="services">Наші сервіси</h2>
             <p class="services-description">
               Наші стоматологи надають високоякісну стоматологічну допомогу
             </p>
@@ -351,7 +351,7 @@
         </section>
         <!-- <section class="testimonials">
           <div class="wrapper testimonials-conteiner">
-            <h2 class="testimonials-head">відгуки</h2>
+            <h2 class="testimonials-head" id="testimonials">відгуки</h2>
             <p>Що про нас кажуть пацієнти</p>
             <div class="testimonials-slider">
               <p>
@@ -382,7 +382,7 @@
           </div>
         </section> -->
       </main>
-      <footer class="footer">
+      <footer class="footer" id="contacts">
         <section class="contacts">
           <div class="wrapper">
             <div class="contacts-conteiner">

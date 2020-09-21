@@ -28,7 +28,7 @@ $(function () {
 $(function () {
   $(".menu-icon-wrapper").on("click", function () {
     $(".menu-list").slideToggle(300, function () {
-      if ($(this).css("display") === "none") {
+      if ($(this).css("display") === "block") {
         // $(this).removeAttr("style");
       }
     });
