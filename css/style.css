@@ -138,7 +138,6 @@ h4 {
   justify-content: space-between;
   padding: 0;
   width: 70%;
-  border: 1px solid red;
 }
 .main-forms {
   display: flex;
@@ -681,12 +680,14 @@ h4 {
     background-color: #fafafa;
     height: 5rem;
     white-space: nowrap;
-    font-size: 0.1em;
+    font-size: 0.8em;
   }
   .main-forms__hover::before {
     content: "";
-    background-size: 5px;
-    left: -20px;
+    background-size: 30px;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
   }
   .main-logo {
     position: relative;
