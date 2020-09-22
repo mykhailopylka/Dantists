@@ -732,6 +732,14 @@ h4 {
   .welcome-descriptiopn__text {
     width: 100%;
   }
+  /* choose ----------------------- */
+  .choose {
+    margin-top: 2rem;
+  }
+  /* services -------------------- */
+  .services {
+    padding: 2rem 0 0;
+  }
 }
 @media screen and (max-width: 860px) {
   /* animation --------------------*/
