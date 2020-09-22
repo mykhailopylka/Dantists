@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   font-family: "lato";
   color: #808080;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .container {
   display: grid;
