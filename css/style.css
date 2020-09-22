@@ -274,16 +274,16 @@ h4 {
   border-radius: 50%;
   border: none;
   background-color: transparent;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
   z-index: 2;
 }
 .slick-prev {
-  left: -30px;
+  left: -35px;
 }
 .slick-next {
-  right: -30px;
+  right: -35px;
 }
 /* welcome-content------------------ */
 .welcome-head {
@@ -423,13 +423,17 @@ h4 {
   left: 0;
 }
 .testimonials-head {
+  padding: 1rem 0;
+  margin: 0;
   color: #ffffff;
   text-transform: uppercase;
 }
 .testimonials-slider {
-  max-width: 50%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  max-width: 500px;
   margin: 0 auto;
-  /* padding: 50px; */
 }
 /* FOOTER============================================== */
 /* contacts-------------------------- */
@@ -821,13 +825,9 @@ h4 {
   .welcome-descriptiopn__slider {
     width: 400px;
   }
-}
-/* 466------------------------------------- */
-@media screen and (max-width: 466px) {
-  /* animation --------------------*/
-  .main-invitation__animation {
-    width: 130px;
-    margin: -7em 0 0 20em;
+  /* testimonials ------------------ */
+  .testimonials-slider {
+    max-width: 250px;
   }
   /* slider ------------*/
   .welcome-descriptiopn__slider {
@@ -836,6 +836,14 @@ h4 {
   .slick-arrow {
     width: 35px;
     height: 35px;
+  }
+}
+/* 466------------------------------------- */
+@media screen and (max-width: 466px) {
+  /* animation --------------------*/
+  .main-invitation__animation {
+    width: 130px;
+    margin: -7em 0 0 20em;
   }
 }
 /* 384------------------------------------- */
