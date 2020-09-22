@@ -620,7 +620,6 @@ h4 {
   .menu {
     margin-top: -7rem;
     width: 100%;
-    border: 1px solid red;
     color: #000;
   }
   .menu-list {
@@ -646,7 +645,8 @@ h4 {
     width: 100%;
     height: 30px;
     cursor: pointer;
-    padding: 40px;
+    padding: 40px 0;
+    border: 1px solid red;
   }
   .menu-list {
     display: none;
@@ -656,7 +656,7 @@ h4 {
     position: relative;
     width: 30px;
     height: 5px;
-    background-color: #ecb84c;
+    background-color: #17a1e0;
   }
   .menu-icon::before {
     position: absolute;
@@ -665,7 +665,7 @@ h4 {
     content: "";
     width: 30px;
     height: 5px;
-    background-color: #ecb84c;
+    background-color: #17a1e0;
     transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
   }
   .menu-icon::after {
@@ -675,7 +675,7 @@ h4 {
     content: "";
     width: 30px;
     height: 5px;
-    background-color: #ecb84c;
+    background-color: #17a1e0;
     transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
   }
   .menu-icon.menu-icon-active {
@@ -857,6 +857,10 @@ h4 {
   .main-invitation__animation {
     width: 100px;
     margin: -5em 0 0 16em;
+  }
+  /* menu-icon-wrapper--------------------- */
+  .menu-icon-wrapper {
+    padding-right: 1rem;
   }
   /* contacts-day ------------------------- */
   .contacts-day {
