@@ -78,6 +78,14 @@ h4 {
   text-transform: uppercase;
   font-family: "academia";
 }
+h5 {
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #808185;
+  font-family: "cera";
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
 /* ================================= */
 .wrapper {
   position: relative;
@@ -374,6 +382,7 @@ h4 {
   margin: 0 auto;
   padding: 30px;
   transition: 0.25s all;
+  z-index: 2;
 }
 .services-block:hover {
   box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
@@ -394,6 +403,7 @@ h4 {
   background-attachment: scroll;
   width: 100%;
   padding: 10% 0;
+  margin: -3rem 0;
   color: #ffffff;
   text-align: center;
   position: relative;
@@ -437,6 +447,9 @@ h4 {
   margin: 0 auto;
 }
 /* FOOTER============================================== */
+.footer {
+  z-index: 2;
+}
 /* contacts-------------------------- */
 .contacts {
   width: 100%;
@@ -735,6 +748,10 @@ h4 {
   .choose {
     margin-top: 2rem;
   }
+  .choose-mobile {
+    font-family: "cera";
+    font-size: 1.4em;
+  }
   /* services -------------------- */
   .services {
     padding: 2rem 0 0;
@@ -847,6 +864,9 @@ h4 {
 }
 /* 384------------------------------------- */
 @media screen and (max-width: 384px) {
+  .main-logo h5 {
+    font-size: 1.2rem;
+  }
   /* animation --------------------*/
   .main-invitation__animation {
     width: 100px;
