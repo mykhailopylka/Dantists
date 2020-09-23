@@ -6,6 +6,12 @@ $(document).ready(function () {
       '<button type="button" class="slick-prev"><img src="images/left-arrow-b.svg" alt="arrow"></button>',
     nextArrow:
       '<button type="button" class="slick-next"><img src="images/right-arrow-b.svg" alt="arrow"></button>',
+    draggable: true,
+    autoplay: true /* this is the new line */,
+    autoplaySpeed: 4000,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   });
 });
 // testimonials------------------------
