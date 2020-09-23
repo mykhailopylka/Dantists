@@ -16,6 +16,12 @@ $(document).ready(function () {
       '<button type="button" class="slick-prev"><img src="images/left-arrow-w.svg" alt="arrow"></button>',
     nextArrow:
       '<button type="button" class="slick-next"><img src="images/right-arrow-w.svg" alt="arrow"></button>',
+    draggable: true,
+    autoplay: true /* this is the new line */,
+    autoplaySpeed: 3000,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   });
 });
 // трансформація бутербродного меню в хрестик і назад

@@ -443,7 +443,7 @@ h5 {
   display: flex;
   justify-self: center;
   align-items: center;
-  max-width: 40rem;
+  max-width: 50rem;
   margin: 0 auto;
 }
 /* FOOTER============================================== */
@@ -756,6 +756,10 @@ h5 {
   /* services -------------------- */
   .services {
     padding: 2rem 0 0;
+  }
+  /* testimonials---------------- */
+  .testimonials-slider {
+    max-width: 40rem;
   }
 }
 @media screen and (max-width: 860px) {
