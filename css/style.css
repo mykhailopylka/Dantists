@@ -626,9 +626,10 @@ h5 {
     display: block;
   }
   .menu {
-    margin-top: -7rem;
+    margin-top: -6.5rem;
     width: 100%;
     color: #000;
+    padding-right: 2rem;
   }
   .menu-list {
     text-transform: uppercase;
@@ -764,11 +765,6 @@ h5 {
     margin: -10em 0 0 28em;
   }
 }
-@media screen and (max-width: 772px) {
-  .menu {
-    margin-top: -5rem;
-  }
-}
 /* 768------------------------------------- */
 @media screen and (max-width: 768px) {
   .container {
@@ -812,6 +808,12 @@ h5 {
   /* testimonials ------------------- */
   .testimonials-slider {
     max-width: 25rem;
+  }
+  .menu {
+    margin-top: -5rem;
+  }
+  .main-contacts__position {
+    padding-top: 0;
   }
 }
 @media screen and (max-width: 690px) {
