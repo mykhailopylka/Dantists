@@ -768,6 +768,10 @@ h5 {
     width: 280px;
     margin: -10em 0 0 28em;
   }
+  /* main forms mobile */
+  .main-forms {
+    margin-left: 1rem;
+  }
 }
 /* 768------------------------------------- */
 @media screen and (max-width: 768px) {
