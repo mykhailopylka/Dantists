@@ -23,10 +23,10 @@
     <!--load all styles Font Awesome-->
   </head>
   <body>
+    <!-- розміщення з початку body  JS необхідне для коректної роботи svg анімації -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <!-- <script src="js/main.js"></script> -->
     <script src="js/lottie.js"></script>
+    <!-- /JS=========================================== -->
     <div class="container">
       <header class="header">
         <div class="wrapper header-position">
@@ -133,7 +133,7 @@
                 <a href="tel:+380984768392">
                   <span class="main-forms__head"> Зателефонуйте нам </span>
                   <br />
-                  <spanp>098-476-8392</spanp>
+                  <span>098-476-8392</span>
                 </a>
               </div>
             </div>
@@ -161,10 +161,9 @@
               class="main-invitation__svgContainer"
               id="main-invitation__svgContainer"
             ></div>
-            <!-- <script src="js/lottie.js"></script> -->
-            <script src="js/main.js"></script>
           </div>
         </section>
+
         <section class="welcome">
           <div class="wrapper">
             <div class="welcome-head" id="about">
@@ -475,6 +474,10 @@
         <div class="footer-copyright">
           <p>Copyright © 2020 Mykhailo Pylka.</p>
         </div>
+        <!-- JS========================== -->
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+        <!-- /JS========================== -->
       </footer>
     </div>
   </body>
